@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd /tmp/
+python3 /usr/local/sbin/parse_tg.py
+sudo cp tg.txt /var/www/html/
